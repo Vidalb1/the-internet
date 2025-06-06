@@ -74,8 +74,7 @@ def set_server(user_input, dict, ip_dict):
                     
 
 def recursion(dict, server, destination, visited):
-    """    A function to display the gameboard, place the frog onto the road, 
-                and determine if the frog been hit by a car or not.
+    """    A function that will show the path that will lead to the server if exists.
             :param dict: The entire internet.
             :param server: the set server that will reach to the destination.
             :param destination: The server or ip address that we want to reach.
@@ -100,8 +99,7 @@ def recursion(dict, server, destination, visited):
     return path, 0
 
 def find(dict, server, destination):
-    """    A function to display the gameboard, place the frog onto the road, 
-                and determine if the frog been hit by a car or not.
+    """    A function to find the path that is needed to reach to the server.
             :param dict: The entire internet.
             :param server: the set server that will reach to the destination.
             :param destination: The server or ip address that we want to reach.
